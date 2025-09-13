@@ -1,0 +1,5 @@
+number=int(input("ведите любое число "))
+if number % 5==0 and number % 10 ==0:
+    print("число кратно 5 и 10 ")
+else:
+    print("число не кратно 5 и 10 ")
