@@ -1,0 +1,11 @@
+start=int(input())
+end=int(input())
+even_numbers=[]
+if start>end:
+    print("начало диапазона должно быть меньше конца  ")
+else:
+    for i in range (start, end + 1):
+        if i%2==0:
+            even_numbers.append(i)
+    print(even_numbers)
+
